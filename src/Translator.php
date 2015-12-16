@@ -1,4 +1,4 @@
-<?php namespace Barryvdh\TranslationManager;
+<?php namespace Txandy\TranslationManager;
 
 use Illuminate\Translation\Translator as LaravelTranslator;
 use Illuminate\Events\Dispatcher;
