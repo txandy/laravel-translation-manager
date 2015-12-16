@@ -1,12 +1,14 @@
 {
-    "name": "barryvdh/laravel-translation-manager",
+    "name": "txandy/laravel-translation-manager",
     "description": "Manage Laravel Translations",
     "keywords": ["laravel", "translations", "translator"],
     "license": "MIT",
     "authors": [
         {
             "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
+            "email": "barryvdh@gmail.com",
+            "name": "Christian Jiménez",
+            "email": "txandy@gmail.com"
         }
     ],
     "require": {
@@ -17,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Barryvdh\\TranslationManager\\": "src/"
+            "Txandy\\TranslationManager\\": "src/"
         }
     },
     "extra": {
