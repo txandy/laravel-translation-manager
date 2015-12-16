@@ -1,7 +1,7 @@
-<?php namespace Barryvdh\TranslationManager\Console;
+<?php namespace Txandy\TranslationManager\Console;
 
 use Illuminate\Console\Command;
-use Barryvdh\TranslationManager\Manager;
+use Txandy\TranslationManager\Manager;
 
 class ResetCommand extends Command {
 
@@ -19,7 +19,7 @@ class ResetCommand extends Command {
      */
     protected $description = 'Delete all translations from the database';
 
-    /** @var \Barryvdh\TranslationManager\Manager  */
+    /** @var \Txandy\TranslationManager\Manager  */
     protected $manager;
 
     public function __construct(Manager $manager)
