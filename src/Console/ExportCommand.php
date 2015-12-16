@@ -1,6 +1,6 @@
-<?php namespace Barryvdh\TranslationManager\Console;
+<?php namespace Txandy\TranslationManager\Console;
 
-use Barryvdh\TranslationManager\Manager;
+use Txandy\TranslationManager\Manager;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -20,7 +20,7 @@ class ExportCommand extends Command {
      */
     protected $description = 'Export translations to PHP files';
 
-    /** @var \Barryvdh\TranslationManager\Manager  */
+    /** @var \Txandy\TranslationManager\Manager  */
     protected $manager;
 
     public function __construct(Manager $manager)
